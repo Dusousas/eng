@@ -92,7 +92,7 @@ export default function Cases() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="portfolio" className="py-20 bg-white">
       <div className="maxW">
         <p className="uppercase text-Primary text-center tracking-wider">
           PROJETOS DE SUCESSO

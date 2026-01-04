@@ -1,13 +1,11 @@
 "use client";
 
-import React from "react";
-
 export default function Footer() {
     return (
         <>
-            <section>
+            <section className="py-6 bg-hf">
                 <div className="maxW">
-                    {/* Footer */}
+                  <p className="text-center text-white">Todos direitos reservados © 2026</p>
                 </div>
             </section>
         </>

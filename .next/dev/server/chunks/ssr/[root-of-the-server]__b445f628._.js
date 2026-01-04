@@ -162,12 +162,12 @@ function Header() {
                         className: "hidden bg-white px-4 py-6 rounded-sm flex justify-center items-center  left-1/2 -translate-x-1/2 min-w-[1348px] bottom-0 translate-y-1/2  mx-auto z-20 absolute lg:block",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$subc$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 21,
+                            lineNumber: 23,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 20,
+                        lineNumber: 22,
                         columnNumber: 11
                     }, this)
                 ]

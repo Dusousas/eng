@@ -6,7 +6,7 @@
   "static/chunks/node_modules_react-icons_si_index_mjs_86623806._.js",
   "static/chunks/node_modules_react-icons_lib_844c6c50._.js",
   "static/chunks/node_modules_swiper_80165f0d._.js",
-  "static/chunks/components_0c8b671f._.js",
+  "static/chunks/components_c7faa07c._.js",
   "static/chunks/node_modules_swiper_swiper_81c11a6e.css"
 ],
     source: "dynamic"

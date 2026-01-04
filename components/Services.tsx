@@ -5,7 +5,7 @@ import { SiVerizon } from "react-icons/si";
 export default function Services() {
     return (
         <>
-            <section className="py-20 bg-white">
+            <section id="servicos" className="py-20 bg-white">
                 <div className="maxW flex flex-col justify-center items-center gap-20 lg:flex-row">
 
                     <article>
