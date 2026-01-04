@@ -167,3 +167,137 @@ It can also happen if the client has a browser extension installed which messes 
 [01:12:48.676] Server  LOG     ✓ Compiled in 17ms
 [01:13:04.980] Server  LOG     ✓ Compiled in 15ms
 [01:13:10.989] Server  LOG     ✓ Compiled in 20ms
+[01:16:57.634] Server  LOG     ✓ Compiled in 17ms
+[01:17:02.452] Server  LOG     ✓ Compiled in 10ms
+[01:17:12.599] Server  LOG     ✓ Compiled in 17ms
+[01:17:18.824] Server  LOG     ✓ Compiled in 14ms
+[01:17:26.992] Server  LOG     ✓ Compiled in 13ms
+[01:17:31.524] Server  LOG     ✓ Compiled in 14ms
+[01:17:40.949] Server  LOG     ✓ Compiled in 16ms
+[02:16:09.683] Server  LOG     ✓ Compiled in 19ms
+[02:16:58.774] Server  LOG     ✓ Compiled in 16ms
+[02:17:47.935] Server  LOG     ✓ Compiled in 12ms
+[02:17:56.382] Server  LOG     ✓ Compiled in 19ms
+[02:18:04.939] Server  LOG     ✓ Compiled in 13ms
+[02:18:32.578] Server  LOG     ✓ Compiled in 50ms
+[02:18:40.091] Server  LOG     ✓ Compiled in 15ms
+[02:18:45.106] Server  LOG     ✓ Compiled in 15ms
+[02:18:54.257] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:18:54.518] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="barlow_f3aa6fc9-module__2jZOfG__variable roboto_b2b19b72-module__HjYuqa__variab..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[02:19:05.578] Server  LOG     ✓ Compiled in 15ms
+[02:19:15.509] Server  LOG     ✓ Compiled in 31ms
+[02:19:40.288] Server  LOG     ✓ Compiled in 11ms
+[02:19:53.375] Server  LOG     ✓ Compiled in 14ms
+[02:20:32.609] Server  LOG     ✓ Compiled in 13ms
+[02:20:57.002] Server  LOG     ✓ Compiled in 12ms
+[02:21:00.829] Server  LOG     ✓ Compiled in 16ms
+[02:21:11.626] Server  LOG     ✓ Compiled in 16ms
+[02:21:15.156] Server  LOG     ✓ Compiled in 15ms
+[02:21:25.382] Server  LOG     ✓ Compiled in 15ms
+[02:21:26.595] Server  LOG     ✓ Compiled in 17ms
+[02:21:28.604] Server  LOG     ✓ Compiled in 13ms
+[02:21:30.229] Server  LOG     ✓ Compiled in 13ms
+[02:21:37.423] Server  LOG     ✓ Compiled in 15ms
+[02:22:21.704] Server  LOG     ✓ Compiled in 14ms
+[02:25:43.985] Server  LOG     ✓ Compiled in 27ms
+[02:26:05.448] Server  LOG     ✓ Compiled in 20ms
+[02:26:19.546] Server  LOG     ✓ Compiled in 21ms
+[02:26:22.417] Server  LOG     ✓ Compiled in 24ms
+[02:26:26.142] Server  LOG     ✓ Compiled in 18ms
+[02:26:38.604] Server  LOG     ✓ Compiled in 14ms
+[02:26:39.644] Server  LOG     ✓ Compiled in 14ms
+[02:26:44.587] Server  LOG     ✓ Compiled in 12ms
+[02:27:00.889] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:27:01.153] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="barlow_f3aa6fc9-module__2jZOfG__variable roboto_b2b19b72-module__HjYuqa__variab..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[02:27:31.465] Server  LOG     ✓ Compiled in 18ms
+[02:27:59.696] Server  LOG     ✓ Compiled in 17ms
+[02:29:06.816] Server  LOG     ✓ Compiled in 12ms
+[02:29:49.436] Server  LOG     ✓ Compiled in 15ms
+[02:29:50.557] Server  LOG     ✓ Compiled in 14ms
+[02:30:18.816] Server  LOG     ✓ Compiled in 22ms
+[02:30:25.300] Server  LOG     ✓ Compiled in 19ms
+[02:31:11.100] Server  LOG     ✓ Compiled in 14ms
+[02:31:14.757] Server  LOG     ✓ Compiled in 17ms
+[02:31:18.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:31:23.181] Server  LOG     ✓ Compiled in 14ms
+[02:31:27.880] Server  LOG     ✓ Compiled in 17ms
+[02:31:33.906] Server  LOG     ✓ Compiled in 15ms
+[02:31:37.009] Server  LOG     ✓ Compiled in 18ms
+[02:31:42.446] Server  LOG     ✓ Compiled in 17ms
+[02:31:57.493] Server  LOG     ✓ Compiled in 14ms
+[02:32:38.882] Server  LOG     ✓ Compiled in 12ms
+[02:32:41.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:30.296] Server  LOG     ✓ Compiled in 22ms
+[02:33:32.982] Server  LOG     ✓ Compiled in 19ms
+[02:34:27.090] Server  LOG     ✓ Compiled in 17ms
+[02:57:35.389] Server  LOG     ✓ Compiled in 92ms

@@ -1,4 +1,5 @@
 import Cards from "@/components/Cards";
+import Cases from "@/components/Cases";
 import Main from "@/components/Main";
 import Numbers from "@/components/Numbers";
 import Services from "@/components/Services";
@@ -10,6 +11,7 @@ export default function Home() {
       <Services />
       <Cards />
       <Numbers />
+      <Cases />
     </>
   );
 }

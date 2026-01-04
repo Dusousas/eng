@@ -57,6 +57,13 @@ body {
   background-position: center;
 }
 
+.c1{
+  background-image: url('/cases/c1.webp');
+  background-size: cover;
+  /* background-position: center;; */
+}
+
+
 p{
   font-family: var(--font-roboto);
 }
