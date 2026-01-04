@@ -3,7 +3,7 @@
 export default function Main() {
   return (
     <>
-      <section  className="bgMain relative">
+      <section  className="bgMain relative pt-20 lg:pt-0">
         <div className="absolute inset-0 bg-black/60" />
 
         <div className="maxW h-full relative z-10">

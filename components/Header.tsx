@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Navbar from "./subc/Navbar";
+import NavMobile from "./subc/Navmobile/NavMobile";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,8 @@ export default function Header() {
 
   return (
     <>
-      <section id="main" className="bg-hf relative py-4 lg:pb-10">
+      <section id="main" className="bg-hf fixed top-0 left-0 w-full z-[1000] py-4
+             lg:relative lg:z-auto lg:py-4 lg:pb-10">
         <div className="w-full maxW">
           <article className="flex justify-between items-end lg:pb-4">
             <div>
@@ -33,6 +35,11 @@ export default function Header() {
               >
                 Logotipo
               </a>
+            </div>
+
+            {/* MENUMOBILE AQUI */}
+            <div className="lg:hidden">
+              <NavMobile />
             </div>
 
             <div className="hidden outline outline-Primary text-Primary px-6 rounded-sm py-2 hover:bg-Primary hover:text-white cursor-pointer transition-colors duration-300 lg:block">
