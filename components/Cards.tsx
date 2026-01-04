@@ -6,7 +6,7 @@ import type { IconType } from "react-icons";
 type CardItem = {
     title: string;
     desc: string;
-    image: string; 
+    image: string;
     Icon: IconType;
 };
 
@@ -106,6 +106,13 @@ export default function Cards() {
                         <ServiceCard key={idx} {...item} />
                     ))}
                 </article>
+
+                <p className="mt-10 text-center text-lg text-[#666] font-medium">Se o seu projeto exige eficiência, segurança e sustentabilidade, ele começa aqui.</p>
+                <div className="flex mt-4 justify-center">
+                    <a className="font-barlow uppercase bg-Primary duration-300 tracking-wide font-semibold text-white px-10 rounded-sm py-4 hover:bg-hf hover:text-white cursor-pointer transition-colors" href="">
+                        Fale com nossos especialistas
+                    </a>
+                </div>
             </div>
         </section>
     );

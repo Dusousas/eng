@@ -177,6 +177,30 @@ function Cards() {
                         fileName: "[project]/components/Cards.tsx",
                         lineNumber: 104,
                         columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-10 text-center text-lg text-[#666] font-medium",
+                        children: "Se o seu projeto exige eficiência, segurança e sustentabilidade, ele começa aqui."
+                    }, void 0, false, {
+                        fileName: "[project]/components/Cards.tsx",
+                        lineNumber: 110,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex mt-4 justify-center",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            className: "font-barlow uppercase bg-Primary duration-300 tracking-wide font-semibold text-white px-10 rounded-sm py-4 hover:bg-hf hover:text-white cursor-pointer transition-colors",
+                            href: "",
+                            children: "Fale com nossos especialistas"
+                        }, void 0, false, {
+                            fileName: "[project]/components/Cards.tsx",
+                            lineNumber: 112,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/Cards.tsx",
+                        lineNumber: 111,
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
@@ -229,7 +253,7 @@ function Main() {
                             className: "lg:w-2/3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "uppercase text-Primary tracking-wider",
+                                    className: "uppercase text-Primary text-sm tracking-wider text-center lg:text-left lg:text-md",
                                     children: "Engenharia inteligente que transforma inovação em soluções sustentáveis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Main.tsx",
@@ -237,7 +261,7 @@ function Main() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-white text-6xl font-barlow font-semibold mt-4",
+                                    className: "text-white font-barlow text-3xl font-semibold mt-4 text-center lg:text-left lg:text-6xl",
                                     children: "Inovação técnica aplicada à engenharia sustentável"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Main.tsx",
@@ -245,7 +269,7 @@ function Main() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-white mt-8",
+                                    className: "text-white mt-8 text-center text-sm lg:text-left lg:text-[16px]",
                                     children: "Somos uma empresa de engenharia movida pela inovação e pela sustentabilidade, com uma abordagem baseada em lean manufacturing, otimização de processos e uso responsável da tecnologia. Atuamos de forma integrada em todas as etapas do projeto, entregando soluções eficientes, seguras e alinhadas aos objetivos de cada cliente — sempre com um olhar atento para o futuro."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Main.tsx",
@@ -253,11 +277,11 @@ function Main() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex mt-6",
+                                    className: "flex mt-6 justify-center lg:justify-start",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         className: "font-barlow uppercase bg-Primary duration-300 tracking-wide font-semibold text-white px-10 rounded-sm py-4 hover:bg-hf hover:text-white cursor-pointer transition-colors",
                                         href: "",
-                                        children: "otimizar seu projeto"
+                                        children: "Otimizar seu projeto"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Main.tsx",
                                         lineNumber: 25,
@@ -337,7 +361,7 @@ function Services() {
                         className: "lg:w-1/2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "uppercase text-Primary tracking-wider",
+                                className: "uppercase text-Primary tracking-wider text-center lg:text-left",
                                 children: "CONSULTORIA EM ENGENHARIA INDUSTRIAL"
                             }, void 0, false, {
                                 fileName: "[project]/components/Services.tsx",
@@ -345,7 +369,7 @@ function Services() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-textP text-4xl font-barlow font-semibold mt-2",
+                                className: "text-textP font-barlow text-2xl font-semibold mt-2 text-center lg:text-left lg:text-4xl",
                                 children: "Transformamos desafios industriais em soluções eficientes e sustentáveis"
                             }, void 0, false, {
                                 fileName: "[project]/components/Services.tsx",
@@ -353,7 +377,7 @@ function Services() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-4 text-[#666]",
+                                className: "mt-4 text-[#666] text-center lg:text-left",
                                 children: "Atuamos na indústria de alimentos e farmacêutica apoiando empresas na superação de gargalos produtivos, redução de perdas, otimização de layouts e melhoria da eficiência energética. Nossa abordagem combina Lean Manufacturing, análise de dados e visão holística do ambiente fabril para gerar resultados consistentes, seguros e sustentáveis ao longo do tempo."
                             }, void 0, false, {
                                 fileName: "[project]/components/Services.tsx",
@@ -472,7 +496,7 @@ function Services() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex mt-10",
+                                className: "flex mt-10 justify-center lg:justify-start",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: "font-barlow uppercase bg-Primary duration-300 tracking-wide font-semibold text-white px-10 rounded-sm py-4 hover:bg-hf hover:text-white cursor-pointer transition-colors",
                                     href: "",

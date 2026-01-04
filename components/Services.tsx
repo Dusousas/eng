@@ -13,15 +13,15 @@ export default function Services() {
                     </article>
 
                     <article className="lg:w-1/2">
-                        <h2 className="uppercase text-Primary tracking-wider">
+                        <h2 className="uppercase text-Primary tracking-wider text-center lg:text-left">
                             CONSULTORIA EM ENGENHARIA INDUSTRIAL
                         </h2>
 
-                        <h1 className="text-textP text-4xl font-barlow font-semibold mt-2">
+                        <h1 className="text-textP font-barlow text-2xl font-semibold mt-2 text-center lg:text-left lg:text-4xl">
                             Transformamos desafios industriais em soluções eficientes e sustentáveis
                         </h1>
 
-                        <p className="mt-4 text-[#666]">
+                        <p className="mt-4 text-[#666] text-center lg:text-left">
                             Atuamos na indústria de alimentos e farmacêutica apoiando empresas na superação de gargalos produtivos, redução de perdas, otimização de layouts e melhoria da eficiência energética. Nossa abordagem combina Lean Manufacturing, análise de dados e visão holística do ambiente fabril para gerar resultados consistentes, seguros e sustentáveis ao longo do tempo.
                         </p>
                         {/* ICONES */}
@@ -58,7 +58,7 @@ export default function Services() {
                         </div>
 
 
-                        <div className="flex mt-10">
+                        <div className="flex mt-10 justify-center lg:justify-start">
                             <a className="font-barlow uppercase bg-Primary duration-300 tracking-wide font-semibold text-white px-10 rounded-sm py-4 hover:bg-hf hover:text-white cursor-pointer transition-colors" href="">
                                 Saiba mais
                             </a>

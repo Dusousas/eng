@@ -1,5 +1,6 @@
 import Cards from "@/components/Cards";
 import Main from "@/components/Main";
+import Numbers from "@/components/Numbers";
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Main />
       <Services />
       <Cards />
+      <Numbers />
     </>
   );
 }

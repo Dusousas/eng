@@ -51,6 +51,12 @@ body {
   background-attachment: fixed;
 }
 
+.bgNumb{
+  background-image: url('/bgNum.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 p{
   font-family: var(--font-roboto);
 }
