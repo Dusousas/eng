@@ -36,28 +36,28 @@ export default function About() {
                     </article>
                     <div className="mt-20 flex flex-col gap-10 lg:flex-row">
                         <div className="bg-hf py-6 px-8 outline outline-white/40 rounded-xl flex-1 min-h-[140px] flex flex-col justify-between">
-                            <p className="font-medium uppercase">Anos de Experiência</p>
+                            <p className="font-medium uppercase text-white">Anos de Experiência</p>
                             <h3 className="text-Primary text-5xl font-bold font-barlow mt-2 flex gap-4 items-center">
                                 <MdPunchClock />20+
                             </h3>
                         </div>
 
                         <div className="bg-hf py-6 px-8 outline outline-white/40 rounded-xl flex-1 min-h-[140px] flex flex-col justify-between">
-                            <p className="font-medium uppercase">Países Atendidos</p>
+                            <p className="font-medium uppercase text-white">Países Atendidos</p>
                             <h3 className="text-Primary text-5xl font-bold font-barlow mt-2 flex gap-4 items-center">
                                 <FaGlobeAmericas />6+
                             </h3>
                         </div>
 
                         <div className="bg-hf py-6 px-8 outline outline-white/40 rounded-xl flex-1 min-h-[140px] flex flex-col justify-between">
-                            <p className="font-medium uppercase">Anos de Experiência</p>
+                            <p className="font-medium uppercase text-white">Anos de Experiência</p>
                             <h3 className="text-Primary text-5xl font-bold font-barlow mt-2 flex gap-4 items-center">
                                 <MdPunchClock />20+
                             </h3>
                         </div>
 
                         <div className="bg-hf py-6 px-8 outline outline-white/40 rounded-xl flex-1 min-h-[140px] flex flex-col justify-between">
-                            <p className="font-medium uppercase">Países Atendidos</p>
+                            <p className="font-medium uppercase text-white">Países Atendidos</p>
                             <h3 className="text-Primary text-5xl font-bold font-barlow mt-2 flex gap-4 items-center">
                                 <FaGlobeAmericas />6+
                             </h3>

@@ -30,7 +30,7 @@ export default function Header() {
           <article className="flex justify-between items-end lg:pb-4">
             <div>
               <a
-                className="font-barlow uppercase font-semibold tracking-wider text-2xl"
+                className="font-barlow uppercase font-semibold text-white tracking-wider text-2xl"
                 href=""
               >
                 Logotipo
