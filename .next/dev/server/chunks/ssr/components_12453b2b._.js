@@ -12,10 +12,39 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 ;
 const cards = [
-    // ✅ depois você só duplica até dar 6 e troca os dados
     {
         title: "Engenharia Conceitual, Básica e Detalhada",
         desc: "Desenvolvimento completo da engenharia do projeto, desde a concepção da ideia até a entrega dos projetos executivos.",
+        image: "/card1.jpg",
+        Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
+    },
+    {
+        title: "Gerenciamento de Projetos",
+        desc: "Gestão E2E com governança, controle e foco na excelência da execução do início ao fim do projeto.",
+        image: "/card1.jpg",
+        Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
+    },
+    {
+        title: "Melhoria de Processos",
+        desc: "Análise e otimização de processos produtivos com foco em eficiência, redução de desperdícios e aplicação de Lean Manufacturing.",
+        image: "/card1.jpg",
+        Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
+    },
+    {
+        title: "Projetos em Sustentabilidade",
+        desc: "Soluções técnicas voltadas à eficiência energética, uso racional de recursos e redução de impactos ambientais.",
+        image: "/card1.jpg",
+        Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
+    },
+    {
+        title: "Masterplan Industrial",
+        desc: "Planejamento estratégico do site industrial alinhado ao crescimento, integrando Lean e gerenciamento de riscos.",
+        image: "/card1.jpg",
+        Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
+    },
+    {
+        title: "Inteligência Artificial aplicada à Engenharia",
+        desc: "Inovação conectada à engenharia para criação de soluções mais inteligentes, eficientes e orientadas ao futuro.",
         image: "/card1.jpg",
         Icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdEngineering"]
     }
@@ -32,16 +61,16 @@ function ServiceCard({ title, desc, image, Icon }) {
                 "aria-hidden": "true"
             }, void 0, false, {
                 fileName: "[project]/components/Cards.tsx",
-                lineNumber: 28,
-                columnNumber: 7
+                lineNumber: 53,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-black/55 opacity-0 group-hover:opacity-100 transition-opacity duration-300",
                 "aria-hidden": "true"
             }, void 0, false, {
                 fileName: "[project]/components/Cards.tsx",
-                lineNumber: 34,
-                columnNumber: 7
+                lineNumber: 59,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative z-10 transition-colors duration-300 group-hover:text-white",
@@ -52,60 +81,60 @@ function ServiceCard({ title, desc, image, Icon }) {
                             className: "text-4xl"
                         }, void 0, false, {
                             fileName: "[project]/components/Cards.tsx",
-                            lineNumber: 42,
-                            columnNumber: 13
+                            lineNumber: 67,
+                            columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 41,
-                        columnNumber: 11
+                        lineNumber: 66,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-xl text-textP font-semibold mt-6 font-roboto transition-colors duration-300 group-hover:text-white",
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 45,
-                        columnNumber: 9
+                        lineNumber: 70,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "border border-Primary mt-6"
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 49,
-                        columnNumber: 9
+                        lineNumber: 74,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-6 text-[#666] transition-colors duration-300 group-hover:text-white lg:pr-25",
                         children: desc
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 51,
-                        columnNumber: 9
+                        lineNumber: 76,
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Cards.tsx",
-                lineNumber: 40,
-                columnNumber: 7
+                lineNumber: 65,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Cards.tsx",
-        lineNumber: 26,
-        columnNumber: 5
+        lineNumber: 51,
+        columnNumber: 9
     }, this);
 }
 function Cards() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "bgCards py-60 relative",
+        className: "bgCards py-20 relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-black"
+                className: "absolute inset-0 bg-[#F8F9FA]/90"
             }, void 0, false, {
                 fileName: "[project]/components/Cards.tsx",
-                lineNumber: 63,
-                columnNumber: 7
+                lineNumber: 88,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "maxW relative z-10",
@@ -115,24 +144,24 @@ function Cards() {
                         children: "NOSSAS SOLUÇÕES EM ENGENHARIA"
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 66,
-                        columnNumber: 9
+                        lineNumber: 91,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-textP text-4xl font-barlow text-center font-semibold mt-2",
                         children: "Projetos de engenharia pensados para o futuro"
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 70,
-                        columnNumber: 9
+                        lineNumber: 95,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-6 text-[#666] text-center max-w-[780px] mx-auto",
                         children: "Atuamos de forma integrada em todas as etapas do projeto, combinando engenharia, gestão, eficiência operacional e inovação para entregar soluções técnicas sólidas, sustentáveis e alinhadas aos objetivos estratégicos de cada cliente."
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 74,
-                        columnNumber: 9
+                        lineNumber: 99,
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                         className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12",
@@ -140,25 +169,25 @@ function Cards() {
                                 ...item
                             }, idx, false, {
                                 fileName: "[project]/components/Cards.tsx",
-                                lineNumber: 81,
-                                columnNumber: 13
+                                lineNumber: 106,
+                                columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Cards.tsx",
-                        lineNumber: 79,
-                        columnNumber: 9
+                        lineNumber: 104,
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Cards.tsx",
-                lineNumber: 65,
-                columnNumber: 7
+                lineNumber: 90,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Cards.tsx",
-        lineNumber: 61,
-        columnNumber: 5
+        lineNumber: 86,
+        columnNumber: 9
     }, this);
 }
 }),

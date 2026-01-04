@@ -534,6 +534,15 @@
     background-color: #f5ad0d;
   }
 
+  .bg-\[\#F8F9FA\] {
+    background-color: #f8f9fa;
+  }
+
+  .bg-\[\#F8F9FA\]\/90 {
+    background-color: #f8f9fae6;
+    background-color: lab(97.8698% -.211 -.603378 / .9);
+  }
+
   .bg-\[\#F8F9FA\]\/95 {
     background-color: #f8f9faf2;
     background-color: lab(97.8698% -.211 -.603378 / .95);
@@ -560,6 +569,16 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/60 {
       background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+    }
+  }
+
+  .bg-black\/90 {
+    background-color: #000000e6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/90 {
+      background-color: color-mix(in oklab, var(--color-black) 90%, transparent);
     }
   }
 
